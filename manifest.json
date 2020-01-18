@@ -1,0 +1,41 @@
+{
+  "name": "De-Mainstream",
+  "short_name": "De-Mainstream",
+  "description": "Fixes the YouTube algorithm to remove mainstream media results from searches.",
+  "version": "1.0.0",
+  "version_name": "1.0.0",
+  "manifest_version": 2,
+  "homepage_url": "https://www.demainstream.com",
+  "incognito": "spanning",
+  "offline_enabled": true,
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "icons": {
+    "16": "img/icons/icon@1x.png",
+    "32": "img/icons/icon@2x.png",
+    "48": "img/icons/icon@3x.png",
+    "128": "img/icons/icon@8x.png"
+  },
+  "browser_action": {
+    "default_title": "De-Mainstream",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "https://*.youtube.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "js": [
+        "youtube/youtube.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background/background.js"
+    ],
+    "persistent": false
+  }
+}
