@@ -1,9 +1,9 @@
 {
-  "name": "De-Mainstream",
+  "name": "De-Mainstream YouTube™",
   "short_name": "De-Mainstream",
-  "description": "Fixes the YouTube algorithm to remove mainstream media results from searches.",
   "version": "1.0.1",
   "version_name": "1.0.1",
+  "description": "Fixes the YouTube™ algorithm to remove mainstream media results from searches.",
   "manifest_version": 2,
   "homepage_url": "https://www.demainstream.com",
   "incognito": "spanning",

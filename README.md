@@ -1,6 +1,6 @@
-# De-Mainstream YouTube - Extension
+# De-Mainstream YouTube™ - Extension
 
-A browser extension to remove Mainstream Media results from YouTube searches. Fixes the YouTube algorithm to remove mainstream media results from searches.
+A browser extension to remove Mainstream Media results from YouTube™ searches. Fixes the YouTube™ algorithm to remove mainstream media results from searches.
 
 Download on the Chrome Web Store here: https://chrome.google.com/webstore/detail/de-mainstream/dkcdmdpcapjlaoioeenamjdanpeehjan
 
@@ -19,7 +19,7 @@ $ npm run dist
 
 ## Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via an issue before making a change. To request a new YouTube channel to block, please submit a new issue.
+When contributing to this repository, please first discuss the change you wish to make via an issue before making a change. To request a new YouTube™ channel to block, please submit a new issue.
 
 ## Say Hi
 
